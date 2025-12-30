@@ -1,0 +1,45 @@
+/* Container */
+.about-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+}
+.title{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/* Two-column layout */
+.about-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Column base style */
+.about-col {
+  width: 40%;
+  box-sizing: border-box;
+}
+
+/* Left Column */
+.about-left {
+    /* background-color: aliceblue; */
+}
+
+/* Right Column */
+.about-right {
+  /* background-color:aqua; */
+  /* border-radius: 0 10px 10px 0; */
+}
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-row {
+    flex-direction: column;
+  }
+
+  
+}

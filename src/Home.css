@@ -1,0 +1,75 @@
+/* Global container */
+.global-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Two column layout */
+.two-column {
+  display: flex;
+  /* gap: 20px; */
+}
+
+/* Column common */
+.column {
+  width: 50%;
+  box-sizing: border-box;
+  height: 70vh;
+align-content: center;}
+
+/* Demo background (remove later) */
+.left {
+  background-color: #1c3f39;
+  color: #fff;
+  border-radius: 10px 0px 0px 10px;
+  text-align: left;
+  padding: 0px 50px;
+}
+.left h1{font-size: 50px;}
+
+.right {
+  background-color: #ffffff00;
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+
+.right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* makes the image cover the container */
+  object-position: center; /* centers the image */
+      border-radius: 0px 10px 10px 0px;
+
+}
+span{
+    color: #c8f21a;
+}
+.home-button{
+    background: #c8f21a !important;
+    color: #000 !important;
+    padding: 8px 13px;
+    font-size: 14px;
+    font-weight: 200;
+    border-radius: 5px;
+    text-decoration: none;
+}
+/* Responsive */
+@media (max-width: 768px) {
+  .two-column {
+    flex-direction: column;
+  }
+
+  .column {
+    width: 100%;
+    height: auto;
+  }
+  .right img {
+    
+    border-radius: 0px 0px 30px 30px;
+}
+  .left{padding: 50px 20px;
+        text-align: center;
+        border-radius: 30px 30px 0px 0px;};
+}

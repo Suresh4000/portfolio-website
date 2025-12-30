@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Rajdhani';
+  src: url('../assets/fonts/Rajdhani.woff2') format('woff2'),
+       url('../assets/fonts/Rajdhani.woff') format('woff'),
+       url('../assets/fonts/Rajdhani.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* Example: apply globally */
+body {
+  font-family: 'Rajdhani', sans-serif;
+}
